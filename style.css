@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    background: black;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    height: 60px;
+    display: flex;
+    padding: 0 25px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.social-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+}
+
+.main .left {
+    width: 50%;
+    height: 600px; 
+    padding: 0 45px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.main .left h3 {
+    font-size: 20px;
+}
+
+.main .left h1 {
+    font-size: 70px;
+}
+
+.main .left h1 span {
+    color: orangered;
+    font-style: italic;
+}
+
+.main .left p {
+    width: 80%;
+    font-size: 20px;
+}
+
+.main .left .but {
+    display: flex;
+    gap: 30px;
+}
+
+
+.main .left .but button {
+    margin-top: 20px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    background: orangered;
+}
+
+.line {
+    width: 100%;
+    border-bottom: 3px solid rgba(255, 68, 0, 0.244);
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.main .right {
+    width: 50%;
+    height: 600px;
+}
