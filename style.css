@@ -3,13 +3,16 @@
     padding: 0;
     box-sizing: border-box;
     color: white;
-    background: black;
 }
 
 html,
 body {
     height: 100%;
     width: 100%;
+}
+
+body {
+    background: black;
 }
 
 nav {
@@ -44,9 +47,9 @@ nav {
 
 .main .left {
     width: 50%;
-    height: 600px; 
+    height: 600px;
     padding: 0 45px;
-    
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -62,7 +65,7 @@ nav {
 }
 
 .main .left h1 span {
-    color: orangered;
+    color: #C9A84B;
     font-style: italic;
 }
 
@@ -78,10 +81,13 @@ nav {
 
 
 .main .left .but button {
+    color: black;
+    font-size: 20px;
     margin-top: 20px;
-    padding: 20px 40px;
-    border-radius: 10px;
-    background: orangered;
+    padding: 15px 30px;
+    border-radius: 40px;
+    background: #C9A84B;
+    border: none;
 }
 
 .line {
@@ -94,4 +100,59 @@ nav {
 .main .right {
     width: 50%;
     height: 600px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .right .image {
+    height: 300px;
+    width: 300px;
+    /* border: 2px solid green; */
+}
+
+.second-page {
+    height: 665px;
+    /* border: 5px solid green; */
+}
+
+.second-page h1 {
+    color: #C9A84B;
+    font-size: 50px;
+    text-align: center;
+}
+
+.second-page p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.second-page .all-cards {
+    height: 80%;
+    margin-top: 43.5px;
+    /* border: #C9A84B 3px solid; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.second-page .all-cards .card-box {
+    height: 400px;
+    width: 300px;
+    border-radius: 40px;
+    padding: 25px;
+
+    background-image: url('https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+}
+
+.second-page .all-cards .card-box .middle {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.second-page .all-cards .card-box .middle h3 {
+    font-size: 20px;
 }
